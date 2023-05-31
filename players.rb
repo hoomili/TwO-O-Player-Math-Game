@@ -7,6 +7,6 @@ class Players
     puts "#{name} has join the game"
   end
   def lost
-    lives -= 1
+    @lives = @lives - 1
   end
 end
